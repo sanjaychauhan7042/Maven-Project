@@ -62,12 +62,14 @@
   <build>
     <plugins>
       <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
-        </configuration>
-      </plugin>
+  <artifactId>maven-compiler-plugin</artifactId>
+  <version>3.11.0</version> <!-- latest stable version -->
+  <configuration>
+    <source>17</source> <!-- or 11, 17, etc. depending on your JDK -->
+    <target>17</target>
+  </configuration>
+</plugin>
+
 
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
