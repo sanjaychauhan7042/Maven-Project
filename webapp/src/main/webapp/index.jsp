@@ -1,2 +1,2 @@
-<h1> Hello, CI/CD pipepile ran successfully. !!! </h1>
+<h1> Hello, CI/CD pipepile running successfully. !!! </h1>
 
